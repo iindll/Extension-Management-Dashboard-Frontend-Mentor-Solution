@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title> Browser extensions manager UI</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="lightmode">
+
+  <div class="pagecontainer">
+    <!-- Extention part -->
+<div class="ExtentionLogoContainer">
+  <div class="ExtensionsIcon">
+    <img src="assets/images/logo.svg" alt="">
+  </div>
+  <div class="mode">
+    <img class="moon" src="assets/images/icon-moon.svg" alt="">
+    <img class="sun"src="assets/images/icon-sun.svg" alt="">
+
+  </div>
+</div>
+<div class="ExtentionListContainer">
+  <div class="ExtentionP">
+    <p>Extention List</p>
+  </div>
+  <div class="Extentionbuttons">
+    <button class="All">All</button>
+    <button class="Active">Active</button>
+    <button class="Inactive">Inactive</button>
+  </div>
+</div>
+  <!-- Features Container -->
+
+  <div class="featureContainer">
+    <div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-console-plus.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP"> DevLens</p>
+          <p>Quickly inspect page layouts and visualize element boundaries</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check1">
+        <label for="check1" class="button"></label>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-style-spy.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP"> StyleSpy</p>
+          <p>Instantly analyze and copy CSS from any webpage element</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check2">
+        <label for="check2" class="button"></label>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  <div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-json-wizard.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP">  JSONWizard
+</p>
+          <p>  Formats, validates, and prettifies JSON responses in-browser</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check3">
+        <label for="check3" class="button"></label>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  <div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-dom-snapshot.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP"> DOM Snapshot</p>
+          <p>Capture and export DOM structures quickly</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check4">
+        <label for="check4" class="button"></label>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  <div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-grid-guides.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP"> GridGuides </p>       
+             <p>  Overlay customizable grids and alignment guides on any webpage</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check5">
+        <label for="check5" class="button"></label>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  <div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-viewport-buddy.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP"> 
+  ViewportBuddy
+ </p>
+          <p> Simulates various screen resolutions directly within the browser</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check6">
+        <label for="check6" class="button"></label>
+        </div>
+      </div>
+    </div>
+  
+  <div class="Featur">
+      <div class="up">
+        <img src="assets/images/logo-tab-master-pro.svg" alt="">
+        <div class="descreption">
+          <p class="BoldP"> Tap Master</p>
+          <p>  Organizes browser tabs into groups and sessions.
+</p>
+        </div>
+        
+      </div>
+      <div class="down">
+                <button class="remove">Remove</button>
+
+        <div class="ActiveContainer">
+          <input type="checkbox" id="check7">
+        <label for="check7" class="button"></label>
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+</div>
+<script src="script.js"></script>
+
+  <!-- All
+  Active
+  Inactive
+  StyleSpy
+  Instantly analyze and copy CSS from any webpage element.
+  Remove
+
+  SpeedBoost
+  Optimizes browser resource usage to accelerate page loading.
+  Remove
+
+  JSONWizard
+  Formats, validates, and prettifies JSON responses in-browser.
+  Remove
+
+  TabMaster Pro
+  Organizes browser tabs into groups and sessions.
+  Remove
+
+  ViewportBuddy
+  Simulates various screen resolutions directly within the browser.
+  Remove
+
+  Markup Notes
+  Enables annotation and notes directly onto webpages for collaborative debugging.
+  Remove
+
+  GridGuides
+  Overlay customizable grids and alignment guides on any webpage.
+  Remove
+
+  Palette Picker
+  Instantly extracts color palettes from any webpage.
+  Remove
+
+  LinkChecker
+  Scans and highlights broken links on any page.
+  Remove
+
+  DOM Snapshot
+  Capture and export DOM structures quickly.
+  Remove
+
+  ConsolePlus
+  Enhanced developer console with advanced filtering and logging.
+  Remove -->
+
+</body>
+</html>

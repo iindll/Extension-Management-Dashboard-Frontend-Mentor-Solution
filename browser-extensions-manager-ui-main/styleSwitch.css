@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin-right: 0;
+}
+
+
+
+.container{
+
+    width: 100px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button{
+    background-color:#091540;
+     width: 200px;
+     height:38px ;
+     border-radius: 200px;
+     cursor: pointer;
+     position: relative;
+     transition: 0.2s;
+
+}
+
+.button::before{
+    position: absolute;
+    content: '';
+    background-color: #f3f3f3;
+    width: 35px;
+    height: 35px;
+    border-radius: 200px;
+    margin: 5px;
+    right: -4px;
+    top: -4px;
+}
+
+input:checked + .button{
+    background-color: rgb(233, 37, 37);
+}
+
+input:checked + .button::before{
+
+transform: translateX(-45px);
+
+}
+
+
+input{
+    display: none;
+}
+
+
